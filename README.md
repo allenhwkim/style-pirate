@@ -11,7 +11,7 @@ Steal full html and css from the existing web site section
 
 ![image](https://user-images.githubusercontent.com/1437734/30754598-58ee667e-9f91-11e7-90db-e722b13187f0.png)
 
-#### Add the script from `unpkg.com`
+#### Add the script from `unpkg.com`, or copy/paste it from `dist/stylePirate.umd.min.js`
 
 `> (function(){var el=document.createElement('script');el.src="https://unpkg.com/style-pirate";document.body.appendChild(el); })();`
 
