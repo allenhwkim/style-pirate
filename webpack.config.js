@@ -5,7 +5,7 @@ const env = require('yargs').argv.env || {}; // webpack --env.prod
 
 const config = {
   entry: {
-    "style-pirate": path.join(__dirname, 'index.js')
+    stylePirate: path.join(__dirname, 'index.js')
   },
   devtool: 'source-map',
   output: {
