@@ -1,0 +1,65 @@
+{
+  "name": "style-pirate",
+  "version": "0.1.0",
+  "description": "Steal full html and css from the existing web site section",
+  "module": "dist/style-pirate.umd.min.js",
+  "author": "Allen Kim<allenhwkim@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack && webpack --env.prod",
+    "upgrade": "npm-check-updates -a/--upgradeAll && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenhwkim/style-pirate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allenhwkim/style-pirate/issues"
+  },
+  "homepage": "https://github.com/allenhwkim/style-pirate#readme",
+  "keywords": [
+    "css",
+    "html",
+    "duplicate",
+    "fonts",
+    "image",
+    "clone",
+    "copy"
+  ],
+  "dependencies": {
+    "yargs": "^4.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-register": "^6.24.1",
+    "browser-env": "^3.1.0",
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-loader": "^1.7.1",
+    "npm-check-updates": "^2.12.1",
+    "npm-run-all": "^3.1.2",
+    "preferences": "^0.2.1",
+    "rimraf": "^2.6.1",
+    "webpack": "3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  }
+}
