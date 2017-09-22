@@ -1,8 +1,9 @@
 {
   "name": "style-pirate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Steal full html and css from the existing web site section",
-  "module": "dist/style-pirate.umd.min.js",
+  "main": "dist/style-pirate.umd.min.js",
+  "module": "index.js",
   "author": "Allen Kim<allenhwkim@gmail.com>",
   "license": "MIT",
   "scripts": {
