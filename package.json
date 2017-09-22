@@ -1,6 +1,6 @@
 {
   "name": "style-pirate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Steal full html and css from the existing web site section",
   "main": "dist/style-pirate.umd.min.js",
   "module": "index.js",
